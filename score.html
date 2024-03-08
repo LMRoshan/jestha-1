@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        /* selectors = 0 1 0 */
+        .box{
+            height: 100px;
+            width: 100px;
+            border: 1px solid;
+            color: whitesmoke;
+            border: 1px solid black;
+        }
+
+        /* 001 */
+        
+        /* 100 */
+        #black-box{
+            background-color: black;
+        }
+
+        /* 010 */
+        .box{
+            background-color: brown;
+        }
+        
+        /* 011 */
+        div.box{
+            background-color: cyan;
+        }
+
+        div{
+            background-color: aquamarine;
+        }
+        
+        /* 012 */
+        body div.box{
+            background-color: darkcyan;
+        }
+        
+        div{
+            background-color: teal;
+            font-size: 25px;
+            text-transform: uppercase;
+            /* padding: 5px; */
+        }
+
+        body div#orange.box{
+            background-color: orangered !important;
+        }
+
+        div#orange.box{
+            background-color: orange !important;
+        }
+        </style>
+</head>
+
+<body>
+    <a href="./index.html">Home</a>
+    <a href="./about-us.html">About</a>
+    <a href="./courses/python.html">python</a>
+    <a href="./courses/upcoming/qa.html">QA</a>
+    <a href="./combined-selectors.html" class="active">Combined Selctor</a>
+
+    <h1>specificity score // css proirity</h1>
+    <p>!important > inline css > id > class > tag/element</p>
+    <hr>
+
+    <div class="box" id="orange" style="background-color: black;">
+        box-1
+    </div>
+</body>
+
+</html>
