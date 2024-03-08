@@ -3,7 +3,8 @@
     eg: git remote add origin <https://github.com/LMRoshan/jestha-2>
 3. (optional) to check if linked or not  
      git remote -v
-4. git add <file_name>
+4. git add <file_name> // for adding individual file 
+    or git add . // for adding all files
 5. git commit -m "<message of what have you done>"
 6. git push origin <branch_name>
      eg git push origin master
