@@ -13,4 +13,7 @@ git status // compares online-repo und local-repo
 
 U - untracked files // new files
 A - addes // when we do git add <file_name>
-M
+M - modified existing file 
+
+branches
+   eg main, master
