@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .box {
+            border: 10px solid;
+            padding: 16px;
+        }
+
+        .box .text-red {
+            color: red;
+        }
+
+        h1,
+        h2,
+        hr {
+            margin-top: 16px;
+            margin-bottom: 16px;
+        }
+
+        p {
+            padding: 16px;
+        }
+
+        ul {
+            padding-left: 30px;
+        }
+
+        .small {
+            width: 200px;
+        }
+
+        a{
+            margin-left: 5px;
+        }
+
+        a.active {
+            color: red;
+        }
+
+        .card {
+            text-align: center;
+            border: 1px solid;
+            margin: 16px 8px;
+            width: 430px;
+            height: 200px;
+        }
+
+        .no-underline{
+            text-decoration: none;
+            margin-left: 5px;
+        }
+
+        .card h2 {
+            color: red;
+        }
+
+        .card:hover{
+            border: 1px solid red;
+            box-shadow: 12px 16px 30px;
+        }
+
+        /* pseudo class  */
+        header a:hover{
+            color: darkred;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <header>
+    <a href="#">Home</a>
+    <a href="./about-us.html">About</a>
+    <a href="./courses/python.html">python</a>
+    <a href="./courses/upcoming/qa.html">QA</a>
+    <a href="./combined-selectors.html" class="active no-underline">
+        <span class="">Combined</span> 
+        <span class="">Selector</span> 
+    </a>
+    </header>
+
+    <div class="card">
+        <h2>$100</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto voluptatem ipsum velit possimus incidunt
+            tenetur neque nemo maxime, eos odio molestias sequi cumque blanditiis, quis maiores culpa quibusdam ducimus
+            doloremque!</p>
+    </div>
+    <div class="card active">
+        <h2>$50</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto voluptatem ipsum velit possimus incidunt
+            tenetur neque nemo maxime, eos odio molestias sequi cumque blanditiis, quis maiores culpa quibusdam ducimus
+            doloremque!</p>
+    </div>
+    <div class="card">
+        <h2>$25</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto voluptatem ipsum velit possimus incidunt
+            tenetur neque nemo maxime, eos odio molestias sequi cumque blanditiis, quis maiores culpa quibusdam ducimus
+            doloremque!</p>
+    </div>
+
+    <h1>Combination of Selectors</h1>
+    <hr>
+    <h2>Selector Types</h2>
+    <ul>
+        <li>
+            <a href="https://www..." class="no-underline">universal</a>
+        </li>
+        <li>
+            <a href="https://ww...">id</a>
+        </li>
+        <li>class</li>
+        <li>element/tag</li>
+    </ul>
+
+    <hr>
+    <h2>Combined Selectors Types</h2>
+    <ul>
+        <li>descendent</li>
+        <li>or</li>
+        <li>and</li>
+        <li>attribute</li>
+        <li>general selector</li>
+        <li>adjescent selector</li>
+    </ul>
+
+    <hr>
+    <h2>Box-Sizing</h2>
+    <div class="box active">
+        <p class="text-red">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ipsa, deserunt amet
+            similique in beatae, nihil atque culpa nam accusantium porro dolores tempore enim sunt alias deleniti
+            impedit consectetur unde?</p>
+        <p class="text-red">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, eos iusto veritatis ad odit
+            consequuntur, praesentium molestias repellat vitae maxime quod itaque cum laborum ut fugit adipisci ex a
+            temporibus.</p>
+    </div>
+    <hr>
+    <div class="box small">
+        <p>
+            klein box
+        </p>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, non, eius rem, magni assumenda corrupti id optio
+        veritatis repudiandae tempore eum iusto. Vel quam in fugit, officiis deserunt expedita dolore!
+    </p>
+    <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, non, eius rem, magni assumenda corrupti id
+            optio veritatis repudiandae tempore eum iusto. Vel quam in fugit, officiis deserunt expedita dolore!
+    </div>
+    </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, non, eius rem, magni assumenda corrupti id optio
+        veritatis repudiandae tempore eum iusto. Vel quam in fugit, officiis deserunt expedita dolore!
+    </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, non, eius rem, magni assumenda corrupti id optio
+        veritatis repudiandae tempore eum iusto. Vel quam in fugit, officiis deserunt expedita dolore!
+    </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, non, eius rem, magni assumenda corrupti id optio
+        veritatis repudiandae tempore eum iusto. Vel quam in fugit, officiis deserunt expedita dolore!
+    </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, non, eius rem, magni assumenda corrupti id optio
+        veritatis repudiandae tempore eum iusto. Vel quam in fugit, officiis deserunt expedita dolore!
+    </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, non, eius rem, magni assumenda corrupti id optio
+        veritatis repudiandae tempore eum iusto. Vel quam in fugit, officiis deserunt expedita dolore!
+    </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, non, eius rem, magni assumenda corrupti id optio
+        veritatis repudiandae tempore eum iusto. Vel quam in fugit, officiis deserunt expedita dolore!
+    </p>
+    <button>Submit</button>
+    <hr>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, non, eius rem, magni assumenda corrupti id optio
+        veritatis repudiandae tempore eum iusto. Vel quam in fugit, officiis deserunt expedita dolore!
+    </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, non, eius rem, magni assumenda corrupti id optio
+        veritatis repudiandae tempore eum iusto. Vel quam in fugit, officiis deserunt expedita dolore!
+    </p>
+</body>
+
+</html>

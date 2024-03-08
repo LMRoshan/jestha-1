@@ -1,0 +1,82 @@
+/* external css */
+
+body{
+    background-color: #F5F5DC;
+}
+
+a{
+    color: hotpink;
+    font-size: 20px;
+    margin: 10px;
+}
+
+p{
+    text-align: justify;
+    color: #8B0000;
+    border: 1px solid;
+    padding: 16px;
+    margin: 38px;
+}
+
+h1,h2{
+    color: #FFD700;
+}
+
+
+img{
+    height: 200px;
+    width: 200px;
+    margin-left: 16px;
+}
+
+table{
+    border: 1px solid;
+    border-collapse: collapse;
+    margin-left: 10px;
+    /* margin-top: 32px; */
+}
+
+
+td,tr{
+    border: 1px solid black;
+    padding: 16px;
+}
+
+#table-two{
+    margin-top: 32px;
+}
+
+/* #table-one-total {
+    text-align: center;
+    font-weight: bold;
+} */
+
+.text-xl{
+    font-size: 24px;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+.table-total, thead{
+    text-align: center;
+    font-weight: bold;
+}
+
+.text-red{
+    color: #8B0000;
+}
+
+#simple-text{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+
+.active{
+    color: hotpink;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}

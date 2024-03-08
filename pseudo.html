@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+
+        }
+
+        .box {
+            height: 25%;
+            width: 50%;
+            border: 1px solid;
+            color: white;
+            /* padding-left: 50%; */
+        }
+
+        .boxes {
+            width: 50%;
+            height: 500px;
+            background-color: teal;
+            /* padding: 40px; */
+        }
+
+        div:first-child {
+            background-color: red;
+        }
+
+        div:nth-child(2) {
+            background-color: green;
+        }
+
+        div:nth-child(3) {
+            background-color: blue;
+        }
+
+        div:last-child {
+            background-color: yellow;
+        }
+
+        section p:not(:nth-child(2)) {
+            color: red;
+        }
+
+        input:focus {
+            border: 1px solid red;
+            outline: none;
+        }
+
+        button:active {
+            background-color: red;
+        }
+
+        a:active {
+            color: orange;
+        }
+
+        .big-text{
+            font-size: 24px;
+        }
+
+        /* 1rem = 16px oder inheriants from the html tag */
+        /* 1em = inheriants from the neariest parent */
+        section p{
+            font-size: 2em;
+            font-size: 2rem;
+            font-size: 32px;
+        }
+
+        /* normal font-size = 16px
+        
+        if width > 1600px
+        
+        font-size = 18...px*/
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    <h1>Pseudo Classes</h1>
+
+    <section class="boxes">
+        <div class="box">Box-1</div>
+        <div class="box">Box-2</div>
+        <div class="box">Box-3</div>
+        <div class="box">Box-4</div>
+    </section>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde accusamus dolore corrupti beatae harum accusantium
+        sequi magni assumenda recusandae, consequatur reprehenderit quis hic, dignissimos excepturi animi, voluptate
+        officia. Omnis, non.</p>
+
+    <section class="big-text">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error perferendis sint, ratione vitae iure atque
+            incidunt voluptatem doloribus et ex aliquam, dolor iusto assumenda nostrum? Officia impedit recusandae iure
+            minima?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error perferendis sint, ratione vitae iure atque
+            incidunt voluptatem doloribus et ex aliquam, dolor iusto assumenda nostrum? Officia impedit recusandae iure
+            minima?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error perferendis sint, ratione vitae iure atque
+            incidunt voluptatem doloribus et ex aliquam, dolor iusto assumenda nostrum? Officia impedit recusandae iure
+            minima?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error perferendis sint, ratione vitae iure atque
+            incidunt voluptatem doloribus et ex aliquam, dolor iusto assumenda nostrum? Officia impedit recusandae iure
+            minima?</p>
+    </section>
+    <hr>
+
+    <form action="">
+        <input type="text">
+        <input type="text">
+        <button>Submit</button>
+    </form>
+    <br>
+</body>
+
+</html>
