@@ -17,3 +17,7 @@ M - modified existing file
 
 branches
    eg main, master
+
+to create new branch 
+    git checkout -b <branch_name>
+    eg git checkout -b auth   
