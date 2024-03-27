@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            height: 100px;
+            width: 100px;
+            border: 1px solid;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 1rem;
+            font-size: 20px;
+            list-style-type: none;
+            background-color: #333;
+            padding: 1rem;
+        }
+
+        li a {
+            text-decoration: none;
+            color: whitesmoke;
+        }
+
+        .static {
+            position: static;
+        }
+
+        .relative {
+            position: relative;
+            left: 105px;
+            top: 5px;
+        }
+
+        .absolute {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: red;
+        }
+
+        .fixed {
+            position: fixed;
+            right: 0;
+        }
+
+        .sticky {
+            position: sticky;
+            background-color: teal;
+            top: 0;
+        }
+
+        .sticky-wrapper {
+            border: 5px solid red;
+        }
+
+        header{
+            position: sticky;
+            top: 0;
+            border: 1px solid red;
+            z-index: 99999;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="box static">Static</div>
+    <div class="wrapper">
+        <div class="box relative">Relative</div>
+    </div>
+    <div class="box absolute">Absolute</div>
+    <div class="box fixed">Fixed</div>
+
+    <div class="sticky-wrapper">
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum consectetur atque dolorem accusamus quaerat
+            voluptatum veniam in ratione dolorum! Voluptates ut iste nesciunt, laborum quia delectus corrupti numquam
+            accusantium distinctio?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum consectetur atque dolorem accusamus quaerat
+            voluptatum veniam in ratione dolorum! Voluptates ut iste nesciunt, laborum quia delectus corrupti numquam
+            accusantium distinctio?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum consectetur atque dolorem accusamus quaerat
+            voluptatum veniam in ratione dolorum! Voluptates ut iste nesciunt, laborum quia delectus corrupti numquam
+            accusantium distinctio?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum consectetur atque dolorem accusamus quaerat
+            voluptatum veniam in ratione dolorum! Voluptates ut iste nesciunt, laborum quia delectus corrupti numquam
+            accusantium distinctio?</p>
+
+        <div class="box sticky">Sticky</div>
+
+        <p>.</p>
+        <p>.</p>
+        <p>.</p>
+        <p>.</p>
+        <p>.</p>
+        <p>.</p>
+        <p>.</p>
+        <p>.</p>
+        <p>.</p>
+
+    </div>
+
+    <hr>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto blanditiis, eligendi beatae rem odit numquam
+        debitis consectetur quidem. Commodi explicabo, sed nam necessitatibus tempora ex molestias doloremque sapiente a
+        unde.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto blanditiis, eligendi beatae rem odit numquam
+        debitis consectetur quidem. Commodi explicabo, sed nam necessitatibus tempora ex molestias doloremque sapiente a
+        unde.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto blanditiis, eligendi beatae rem odit numquam
+        debitis consectetur quidem. Commodi explicabo, sed nam necessitatibus tempora ex molestias doloremque sapiente a
+        unde.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto blanditiis, eligendi beatae rem odit numquam
+        debitis consectetur quidem. Commodi explicabo, sed nam necessitatibus tempora ex molestias doloremque sapiente a
+        unde.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto blanditiis, eligendi beatae rem odit numquam
+        debitis consectetur quidem. Commodi explicabo, sed nam necessitatibus tempora ex molestias doloremque sapiente a
+        unde.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto blanditiis, eligendi beatae rem odit numquam
+        debitis consectetur quidem. Commodi explicabo, sed nam necessitatibus tempora ex molestias doloremque sapiente a
+        unde.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto blanditiis, eligendi beatae rem odit numquam
+        debitis consectetur quidem. Commodi explicabo, sed nam necessitatibus tempora ex molestias doloremque sapiente a
+        unde.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto blanditiis, eligendi beatae rem odit numquam
+        debitis consectetur quidem. Commodi explicabo, sed nam necessitatibus tempora ex molestias doloremque sapiente a
+        unde.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto blanditiis, eligendi beatae rem odit numquam
+        debitis consectetur quidem. Commodi explicabo, sed nam necessitatibus tempora ex molestias doloremque sapiente a
+        unde.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto blanditiis, eligendi beatae rem odit numquam
+        debitis consectetur quidem. Commodi explicabo, sed nam necessitatibus tempora ex molestias doloremque sapiente a
+        unde.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto blanditiis, eligendi beatae rem odit numquam
+        debitis consectetur quidem. Commodi explicabo, sed nam necessitatibus tempora ex molestias doloremque sapiente a
+        unde.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto blanditiis, eligendi beatae rem odit numquam
+        debitis consectetur quidem. Commodi explicabo, sed nam necessitatibus tempora ex molestias doloremque sapiente a
+        unde.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto blanditiis, eligendi beatae rem odit numquam
+        debitis consectetur quidem. Commodi explicabo, sed nam necessitatibus tempora ex molestias doloremque sapiente a
+        unde.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto blanditiis, eligendi beatae rem odit numquam
+        debitis consectetur quidem. Commodi explicabo, sed nam necessitatibus tempora ex molestias doloremque sapiente a
+        unde.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto blanditiis, eligendi beatae rem odit numquam
+        debitis consectetur quidem. Commodi explicabo, sed nam necessitatibus tempora ex molestias doloremque sapiente a
+        unde.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto blanditiis, eligendi beatae rem odit numquam
+        debitis consectetur quidem. Commodi explicabo, sed nam necessitatibus tempora ex molestias doloremque sapiente a
+        unde.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto blanditiis, eligendi beatae rem odit numquam
+        debitis consectetur quidem. Commodi explicabo, sed nam necessitatibus tempora ex molestias doloremque sapiente a
+        unde.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto blanditiis, eligendi beatae rem odit numquam
+        debitis consectetur quidem. Commodi explicabo, sed nam necessitatibus tempora ex molestias doloremque sapiente a
+        unde.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto blanditiis, eligendi beatae rem odit numquam
+        debitis consectetur quidem. Commodi explicabo, sed nam necessitatibus tempora ex molestias doloremque sapiente a
+        unde.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto blanditiis, eligendi beatae rem odit numquam
+        debitis consectetur quidem. Commodi explicabo, sed nam necessitatibus tempora ex molestias doloremque sapiente a
+        unde.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto blanditiis, eligendi beatae rem odit numquam
+        debitis consectetur quidem. Commodi explicabo, sed nam necessitatibus tempora ex molestias doloremque sapiente a
+        unde.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto blanditiis, eligendi beatae rem odit numquam
+        debitis consectetur quidem. Commodi explicabo, sed nam necessitatibus tempora ex molestias doloremque sapiente a
+        unde.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto blanditiis, eligendi beatae rem odit numquam
+        debitis consectetur quidem. Commodi explicabo, sed nam necessitatibus tempora ex molestias doloremque sapiente a
+        unde.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto blanditiis, eligendi beatae rem odit numquam
+        debitis consectetur quidem. Commodi explicabo, sed nam necessitatibus tempora ex molestias doloremque sapiente a
+        unde.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto blanditiis, eligendi beatae rem odit numquam
+        debitis consectetur quidem. Commodi explicabo, sed nam necessitatibus tempora ex molestias doloremque sapiente a
+        unde.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto blanditiis, eligendi beatae rem odit numquam
+        debitis consectetur quidem. Commodi explicabo, sed nam necessitatibus tempora ex molestias doloremque sapiente a
+        unde.</p>
+</body>
+
+</html>

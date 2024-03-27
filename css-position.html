@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .box {
+            height: 100px;
+            width: 100px;
+            border: 1px solid;
+        }
+
+        .static {
+            position: static;
+        }
+
+        .wrapper {
+            background-color: blanchedalmond;
+        }
+
+        .relative {
+            position: relative;
+            left: 102px;
+        }
+
+        .absolute {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: cadetblue;
+        }
+
+        .fixed {
+            position: fixed;
+            /* top: 0; */
+            bottom: 0;
+            right: 0;
+            background-color: darkseagreen;
+        }
+
+        .sticky {
+            position: sticky;
+            top: 0px;
+            background-color: aliceblue;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 9999999999;
+        }
+
+        nav ul {
+            background-color: rgb(248, 194, 124);
+            display: flex;
+            gap: 1rem;
+            list-style-type: none;
+            padding-left: 0;
+            color: azure;
+            padding: 1rem;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: inherit;
+            font-size: 24px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- <header> -->
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    <!-- </header> -->
+
+
+    <div class="box static">Static</div>
+    <div class="wrapper">
+        <div class="box relative">Relative</div>
+    </div>
+    <div class="box absolute">Absolute</div>
+    <div class="box fixed">Fixed</div>
+    <div class="box sticky">Sticky</div>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam a dicta dolor beatae, autem consequatur
+        laboriosam quia, eligendi enim debitis est unde maiores? Error blanditiis assumenda, ipsa fugiat delectus dicta.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quo ipsum atque eum veritatis sed facilis
+        architecto accusantium sapiente placeat, hic soluta eius distinctio, repellat iure quisquam dolore eligendi
+        labore?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quo ipsum atque eum veritatis sed facilis
+        architecto accusantium sapiente placeat, hic soluta eius distinctio, repellat iure quisquam dolore eligendi
+        labore?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quo ipsum atque eum veritatis sed facilis
+        architecto accusantium sapiente placeat, hic soluta eius distinctio, repellat iure quisquam dolore eligendi
+        labore?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quo ipsum atque eum veritatis sed facilis
+        architecto accusantium sapiente placeat, hic soluta eius distinctio, repellat iure quisquam dolore eligendi
+        labore?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quo ipsum atque eum veritatis sed facilis
+        architecto accusantium sapiente placeat, hic soluta eius distinctio, repellat iure quisquam dolore eligendi
+        labore?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quo ipsum atque eum veritatis sed facilis
+        architecto accusantium sapiente placeat, hic soluta eius distinctio, repellat iure quisquam dolore eligendi
+        labore?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quo ipsum atque eum veritatis sed facilis
+        architecto accusantium sapiente placeat, hic soluta eius distinctio, repellat iure quisquam dolore eligendi
+        labore?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quo ipsum atque eum veritatis sed facilis
+        architecto accusantium sapiente placeat, hic soluta eius distinctio, repellat iure quisquam dolore eligendi
+        labore?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quo ipsum atque eum veritatis sed facilis
+        architecto accusantium sapiente placeat, hic soluta eius distinctio, repellat iure quisquam dolore eligendi
+        labore?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quo ipsum atque eum veritatis sed facilis
+        architecto accusantium sapiente placeat, hic soluta eius distinctio, repellat iure quisquam dolore eligendi
+        labore?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quo ipsum atque eum veritatis sed facilis
+        architecto accusantium sapiente placeat, hic soluta eius distinctio, repellat iure quisquam dolore eligendi
+        labore?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quo ipsum atque eum veritatis sed facilis
+        architecto accusantium sapiente placeat, hic soluta eius distinctio, repellat iure quisquam dolore eligendi
+        labore?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quo ipsum atque eum veritatis sed facilis
+        architecto accusantium sapiente placeat, hic soluta eius distinctio, repellat iure quisquam dolore eligendi
+        labore?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quo ipsum atque eum veritatis sed facilis
+        architecto accusantium sapiente placeat, hic soluta eius distinctio, repellat iure quisquam dolore eligendi
+        labore?
+    </p>
+</body>
+
+</html>

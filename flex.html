@@ -1,33 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Playfair+Display:ital@0;1&display=swap"
+        rel="stylesheet">
+
     <style>
         body{
-            background-color: bisque;
-        }
-        
-        .flexbox{
-            background-color: cyan;
+            background-color: rebeccapurple;
         }
 
-        .flex-item{
-            height: 100px;
+        * {
+            box-sizing: border-box;
+        }
+
+        h1 {
+            font-family: "Oswald", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-size: 50px;
+            text-align: center;
+            font-style: normal;
+        }
+
+        p {
+            font-family: "Playfair Display", serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .flexbox {
+            /* background-color: cyan; */
+            border: 1px solid black;
+            height: 300px;
+            display: flex;
+            color: whitesmoke;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .wrapper {
+            height: 100%;
+        }
+
+        .flex-item {
+            height: 25%;
             width: 100px;
             background-color: teal;
             border: 1px solid white;
         }
     </style>
 </head>
+
 <body>
-    
+
+    <h1>Flex</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi ducimus ipsum voluptas sed aperiam, iure dolore,
+        nostrum optio a nihil accusantium saepe. Cupiditate dolores atque error veritatis perferendis ratione
+        voluptates.</p>
+
+    <!-- <div class="flexbox">
+        <div class="wrapper">
+            <div class="flex-item">Item</div>
+            <div class="flex-item">Item</div>
+            <div class="flex-item">Item</div>
+            <div class="flex-item">Item</div>
+        </div>
+    </div> -->
     <div class="flexbox">
-        <div class="flex-box"></div>
-        <div class="flex-box"></div>
-        <div class="flex-box"></div>
+
+        <div class="flex-item">
+            <p>one</p>
+        </div>
+        <div class="flex-item">Item</div>
+        <div class="flex-item">Item</div>
+        <div class="flex-item">Item</div>
+
     </div>
 </body>
+
 </html>
